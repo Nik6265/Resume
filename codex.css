@@ -1,0 +1,63 @@
+
+.outer {
+    position: relative;
+    background:#003147;
+    
+
+}
+.profile{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-bottom:20px;
+    border-bottom:1px solid rgba(255, 255, 255, 0.2);
+
+}
+.profile .pic{
+    position:relative;
+    
+}
+.outer .profile{
+    position: relative;
+    align-items: center;
+   font-size:large;
+    color:rgb(238, 234, 23);
+
+}
+.outer .experience{
+    position: relative;
+    align-items: center;
+   font-size:large;
+    color:rgb(238, 234, 23);
+    
+}
+.profile .pic nikimage{
+    position: relative;
+    top:0;
+    left:50px;
+    width:100px;
+    height:100px;
+    object-fit: cover;
+}
+.profile h2{
+    color:#fff;
+    font-size:1.5em;
+    margin-top:20px;
+    text-transform:uppercase;
+    text-align:center;
+    line-height:1.4cm;
+
+
+}
+.contact .icon{
+    display:inline-block;
+    width:30px;
+    font-size:20px;
+    color:bisque;
+
+}
+.contact ul li span{
+    color:rgb(229, 73, 16);
+    font-size:20px;
+}
